@@ -128,3 +128,65 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# General
+*#
+*.iml
+*.ipr
+*.iws
+*.sw?
+*~
+.#*
+.*.md.html
+.DS_Store
+.attach_pid*
+.classpath
+.factorypath
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+.vscode
+
+# IntelliJ IDEA
+.idea/
+
+# Maven build directories
+target/
+build/
+*.jar
+*.war
+*.ear
+*.class
+
+# Gradle build directories (if used)
+.gradle/
+build/
+!/**/src/**/bin
+!/**/src/**/build
+
+# Application configuration
+secrets.yml
+
+# Spring Boot
+!/**/src/**/application.properties
+
+# Log files
+*.log
+build.log
+*.log.*
+
+# System files
+*.tmp
+*.bak
+*.swp
+
+# Dependency directories
+node_modules/
+
+# Other
+dependency-reduced-pom.xml
+flattened-pom.xml
+interpolated*.xml
+overrided​⬤
