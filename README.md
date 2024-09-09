@@ -4,7 +4,7 @@ A cross-platform web application (PWA) designed to help users build and track be
 
 ## Structure
 
-- `/apps` - Contains the front-end applications.
-- `/packages` - Contains shared packages like backend services, common utilities, and authentication.
+- `/app` - Contains the front-end applications.
+- `/backend` - Contains the back-end applications.
 - `/infra` - Infrastructure as code (IaC) files like Terraform and Docker.
 - `/scripts` - Scripts for deployment, building, etc.
